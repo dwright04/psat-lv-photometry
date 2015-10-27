@@ -266,7 +266,7 @@ def transform_to_ps1_bandpass(filter, mag_sdss, mag_err_sdss, gr_sdss, gr_sdss_e
 def check_legacy_target1_flags(id):
     stellar_valid_flags = [13,14,15,16,18,19]
     query = "'select legacy_target1 from SpecPhotoAll where objID = %s'" % id
-    cmd = "python sqlcl.py -q %s" % query
+    cmd = "python sqlcl_dr9.py -q %s" % query
     try:
         result = subprocess.check_output(cmd, shell=True).split("\n")[-2].split(",")
         #print result
@@ -282,7 +282,7 @@ def check_legacy_target1_flags(id):
 def check_boss_target1_flags(id):
     stellar_valid_flags = [20,21,34,35]
     query = "'select boss_target1 from SpecPhotoAll where objID = %s'" % id
-    cmd = "python sqlcl.py -q %s" % query
+    cmd = "python sqlcl_dr9.py -q %s" % query
     try:
         result = subprocess.check_output(cmd, shell=True).split("\n")[-2].split(",")
         #print result
