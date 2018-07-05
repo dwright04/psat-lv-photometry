@@ -2,7 +2,7 @@
 
 psat-lv-photometry is a repository for scripts used to measure photometry of transients discovered during a search for an optical counterpart to the first gravitational wave source discovered by LIGO (GW150914).  Imaging for the search was conducted primarily by Pan-STARRS1 with additional images from the NTT and LSQ.
 
-The key difference between this pipeline and others is the application of machine learning to the selection of reference stars for the zero point calculation.  Typically reference stars are manually selected to ensure quality measurements.  In this case we replace the need for human intervention by employing a Convolutional Neural Network to select only the highest quality stars in the image.
+The key difference between this pipeline and others is the application of machine learning to the selection of reference stars for the zero point calculation.  Typically reference stars are manually selected to remove defects ensuring quality measurements.  In this case we replace the need for human screening by employing a Convolutional Neural Network (CNN) to select only the highest quality stars in the image fully automating the photometry calculations.  The CNN is trained on images from Pan-STARRS1, but generalises well to data from other telescopes.
 
 ## Papers
 [Pan-STARRS and PESSTO search for an optical
