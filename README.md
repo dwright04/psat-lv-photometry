@@ -6,6 +6,7 @@ psat-lv-photometry is a repository for scripts used to measure photometry of tra
 [Pan-STARRS and PESSTO search for an optical
 counterpart to the LIGO gravitational wave source
 GW150914 - Smartt et al. 2016](https://arxiv.org/pdf/1602.04156.pdf)
+
 [Observation of Gravitational Waves from a Binary Black Hole Merger - Abbott et al. 2016](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.116.061102)
 
 ## Installation
