@@ -94,7 +94,7 @@ healpy==1.9.1
 HeapDict==1.0.0
 html5lib==0.9999999
 http==0.2
-httplib2==0.10.3
+httplib2==0.18.0
 idna==2.6
 image==1.5.5
 imagesize==0.7.1
