@@ -170,7 +170,7 @@ psutil==4.3.0
 ptyprocess==0.5.1
 pusher==1.6
 pusherclient==0.3.0
-py==1.4.31
+py==1.10.0
 pyasn1==0.1.9
 PyAudio==0.2.7
 pycocotools==2.0.0
