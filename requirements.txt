@@ -132,7 +132,7 @@ multipledispatch==0.4.8
 nb-anacondacloud==1.1.0
 nb-conda==1.1.0
 nb-conda-kernels==1.0.3
-nbconvert==4.2.0
+nbconvert==6.5.1
 nbformat==4.4.0
 nbpresent==3.0.2
 ndg-httpsclient==0.4.2
