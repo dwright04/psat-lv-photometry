@@ -41,7 +41,7 @@ boto3==1.4.1
 botocore==1.4.70
 Bottleneck==1.1.0
 cdecimal==2.3
-certifi==2018.4.16
+certifi==2022.12.7
 cffi==1.6.0
 chardet==3.0.4
 chest==0.2.3
